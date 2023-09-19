@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Alfe Rey T.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+<body>
+    <form action="">
+      <div class="main-container">
+        <div class="upper">
+
+          <div class="day">
+            <label for="day">DAY</label><br>
+            <input type="text" name="day" id="days">
+          </div>
+          <div class="month">
+            <label for="month">MONTH</label><br>
+            <input type="text" name="month" id="months">
+          </div>
+          <div class="year">
+            <label for="year">YEAR</label><br>
+            <input type="text" name="year" id="years">
+          </div>
+
+        </div>
+        <hr>
+        <div class="middle">
+          <input type="button" onclick="calculateAge()">
+        </div>
+        <div class="bottom">
+          <div class="years_old">
+            <label for="years_old" id="year">--</label>
+            <label for="display">years</label>
+          </div>
+          <div class="months_old">
+            <label for="months_old" id="month">--</label>
+            <label for="display">months</label>
+          </div>
+          <div class="day_old">
+            <label for="days_old" id="day">--</label>
+            <label for="display">days</label>
+          </div>
+        </div>
+        
+        
+      </div>
+    </form>
+
+<script src="age.js"></script>
+</body>
+</html>
